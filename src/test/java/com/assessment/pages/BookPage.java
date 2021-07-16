@@ -10,7 +10,7 @@ public class BookPage {
     public BookPage (WebDriver driver){
         PageFactory.initElements(driver,this);
     }
-
+    //test
     @FindBy(id = "newBuyBoxPrice")
     public WebElement priceInBookPage;
 
